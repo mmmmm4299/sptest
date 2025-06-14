@@ -1,6 +1,6 @@
 # Licenční ujednání
 
-**Copyright (c) 2025 [TVÉ JMÉNO / FIRMA]**  
+**Copyright (c) 2025 mmmmm4299**  
 **Všechna práva vyhrazena.**
 
 Tento software je chráněn autorským právem a je poskytnut výhradně za těchto podmínek:
