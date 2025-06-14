@@ -12,6 +12,7 @@ powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/m
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.ps1' -OutFile '%pth%\speedtest.ps1'"
 cls
 title CPUS - CPU Speed Test - mmmmm4299 All Rights Reserved (%ofloadver%, 1.0)
+echo "%pth%\ui.bat"
 call "%pth%\ui.bat"
 rd /s /q %pth%
 :exof
