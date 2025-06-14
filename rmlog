@@ -2,6 +2,8 @@
 :: Používáním souhlasíte s podmínkami uvedenými v LICENSE.md
 set "pth=%temp%\grea54tg"
 md "%pth%"
+echo Probyha nacitani... Skoro hotovo
+title Probyha nacitani... Skoro hotovo
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.bat' -OutFile '%pth%\ui.bat'"
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.ps1' -OutFile '%pth%\speedtest.ps1'"
 cls
