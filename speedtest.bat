@@ -1,4 +1,6 @@
 @echo off
+:: Tento software je chráněn licencí „All Rights Reserved“
+:: Používáním souhlasíte s podmínkami uvedenými v LICENSE.md
 setlocal enabledelayedexpansion
 
 :MENU
