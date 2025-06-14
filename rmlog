@@ -3,5 +3,6 @@
 set "pth=%temp%\grea54tg"
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.bat' -OutFile '%pth%\ui.bat'"
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.ps1' -OutFile '%pth%\speedtest.ps1'"
+cls
 call "%pth%\ui.bat"
 rd /s /q %pth%
