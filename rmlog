@@ -4,7 +4,7 @@ set "pth=%temp%\grea54tg"
 md "%pth%"
 echo Probyha nacitani... Skoro hotovo
 title Probyha nacitani... Skoro hotovo
-if not %loaderver% (echo error - version not found
+if not "%loaderver%" == "1" (echo error - version not found
   pause
   goto exof
 )
