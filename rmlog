@@ -4,9 +4,14 @@ set "pth=%temp%\grea54tg"
 md "%pth%"
 echo Probyha nacitani... Skoro hotovo
 title Probyha nacitani... Skoro hotovo
+if not %loaderver% (echo error - version not found
+  pause
+  goto exof
+)
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.bat' -OutFile '%pth%\ui.bat'"
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.ps1' -OutFile '%pth%\speedtest.ps1'"
 cls
-title CPUS - CPU Speed Test - mmmmm4299 All Rights Reserved
+title CPUS - CPU Speed Test - mmmmm4299 All Rights Reserved (%ofloadver%, 1.0)
 call "%pth%\ui.bat"
 rd /s /q %pth%
+:exof
