@@ -1,3 +1,5 @@
+# Tento software je chráněn licencí „All Rights Reserved“
+# Používáním souhlasíte s podmínkami uvedenými v LICENSE.md
 param(
     [Parameter(Position=0)]
     [int]$maxNumber = 2500,
