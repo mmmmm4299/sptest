@@ -7,6 +7,6 @@ title Probyha nacitani... Skoro hotovo
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.bat' -OutFile '%pth%\ui.bat'"
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mmmmm4299/sptest/refs/heads/main/speedtest.ps1' -OutFile '%pth%\speedtest.ps1'"
 cls
-title CPUS - CPU Speed Test
+title CPUS - CPU Speed Test - mmmmm4299 All Rights Reserved
 call "%pth%\ui.bat"
 rd /s /q %pth%
